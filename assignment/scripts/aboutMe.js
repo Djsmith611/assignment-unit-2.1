@@ -123,11 +123,9 @@ function isAdventurous(adventurous){
 }
 isAdventurous(adventurous);
 console.log(result);
+//*Checking that the other half of the function works by setting the value of adventurous to false */
 adventurous = false;
-function isntAdventurous(adventurous){
-  result = adventurous ? 'Adventures are great!' : 'How about we stay home?';
-}
-isntAdventurous(adventurous);
+isAdventurous(adventurous);
 console.log(result);
 
 
